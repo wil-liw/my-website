@@ -1,0 +1,261 @@
+/* Will's CSS file */
+
+
+
+/*
+color codes:
+black - #090E12
+purple - #33192E
+grey - #DFEDE5
+teal - #25B3BA
+light blue - #B1F2F1
+pink - #FF91AA
+yellow - #FADB73
+green - #ACE8A0
+*/
+
+
+
+/* Links */
+
+a {
+color: #33192E;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 5px dotted #FF91AA;
+padding-bottom: 1px;
+}
+
+a:visited { color: #25B3BA; }
+
+
+
+/* Navigation */
+
+nav { 
+font-family: BubblegumSans-Regular;
+display: inline;
+font-size: 34px;
+float: right; 
+margin-right: 150px;
+padding-right: 5px;
+}
+
+nav ul { 
+list-style-type: none;
+border: none;
+margin-left: 0px;
+padding-left: 5px;
+border-bottom: none;
+display: block;
+line-height: 2;
+height: 1%;
+}
+
+nav a {
+display: block:
+background: #ebecf6;
+padding-left: 1px;
+line-height: 2;
+border-bottom-color: #FF91AA;
+height: 1%;
+}
+
+nav a:hover {background-color: #B1F2F1; }
+
+
+
+/* Tables */
+
+table {
+border: 5px dotted #FF91AA;
+line-height: 30px;
+padding-left: 30px;
+margin-left: 120px;
+}S
+
+caption {display: none; }
+
+thead {
+font-family: BubblegumSans-Regular;
+color: #33192E;
+background-color: #B1F2F1;
+text-align: left;
+}
+
+tbody {
+font-family: OpenDyslexic-Regular;
+font-size: 16px;
+color: #090E12;
+}
+
+
+
+/* Footers */
+
+footer { 
+line-height: 30px;
+clear: both; 
+padding: 10px;
+font-size: 14px;
+background-color: #FADB73;
+color: #090E12;
+border-top: 10px solid #FF91AA;
+padding-left: 40px;
+}
+
+footer p {margin-bottom: 0px; }
+
+footer a:link { color: #33192E; }
+
+footer a:hover, footer a:focus, footer a:active { 
+background-color: #B1F2F1;
+border: none;
+}
+
+
+
+/* Headings */
+
+h1 { 
+font-family: BubblegumSans-Regular;
+font-size: 60px;
+line-height: 30px;
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 100px;
+padding-top: 20px;
+color: #090E12;
+}
+
+h2 { 
+font-family: BubblegumSans-Regular;
+font-size: 48px;
+line-height: 30px;
+margin-top: 10;
+margin-bottom: 10px;
+margin-left: 100px;
+padding-top: 20px;
+color: #33192E;
+}
+
+header {
+background: white url(images/url.png) no-repeat;
+width: 1366px;
+height: 216px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+
+header h1, header p { text-indent: -9999999999px; }
+
+
+
+/* Lists */
+
+ol {
+line-height: 30px;
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 100px;
+padding-top: 20px;
+}
+
+ul {
+line-height: 40px;
+padding-left: 30px;
+margin-left: 120px;
+}
+
+
+
+/* Images */
+
+img {
+padding: 4px;
+border-width: 5px;
+border-style: dotted;
+border-color: #FF91AA;
+margin-left: 0px;
+}
+
+
+
+/* Body */
+
+body { 
+background: white url(images/pastelbg.jpg) repeat left top fixed;
+font-family: OpenDyslexic-Regular;
+font-size: 18px;
+line-height: 1.5;
+margin: 20px;
+padding: 10px;
+}
+
+
+
+/* Paragraphs */
+
+p {
+color: #090E12;
+line-height: 30px;
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 100px;
+padding-top: 20px;
+}
+
+
+
+/* Div */
+
+div#wrapper {
+width: 1366px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: white;
+background-image: url(images/layout.png);
+background- repeat: repeat-y;
+background-position: left top;
+background attachment: scroll;
+border: 10px solid #FF91AA;
+}
+
+
+
+/* Article */
+
+article {
+float: left;
+width: 900px;
+padding-left: 10px;
+}
+
+
+
+/* Fonts */
+
+@font-face {
+font-family: "OpenDyslexic-Regular";
+src: url(OpenDyslexic-Regular.otf);
+}
+
+@font-face {
+font-family: "BubblegumSans-Regular";
+src: url(BubblegumSans-Regular.otf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
